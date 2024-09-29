@@ -6,8 +6,9 @@
  Enable Windows Subsystem for Linux:
  Open PowerShell as an administrator/ Install git and open gitbash.
  Run the command:
-              wsl -v
-
+ ```bash
+      wsl -v
+      ```
 
  If you don't have it installed use this command
                   wsl --install -d Ubuntu-20.04
