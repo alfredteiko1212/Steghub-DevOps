@@ -6,13 +6,13 @@
  Enable Windows Subsystem for Linux:
  Open PowerShell as an administrator/ Install git and open gitbash.
  Run the command:
- ```bash
-      wsl -v
-      ```
+ 
+              wsl -v
+
 
  If you don't have it installed use this command
                   wsl --install -d Ubuntu-20.04
-![My image](ubuntu_version.jpg)
+![my imgage](imgaes/ubuntu_version.jpeg)
 
 # Steps to Launch an EC2 Instance on AWS Using Ubuntu
 
@@ -27,7 +27,7 @@
 
 4. Choose an Amazon Machine Image (AMI):
    - Select an Ubuntu AMI from the list (e.g., Ubuntu Server 22.04 LTS).
-   ![My image](setup_instance.png)
+   ![my image](imgaes/setup_instance.png)
 
 5. Choose an Instance Type:
    - Select the instance type (e.g., `t2.micro` for the free tier) and click **“Next: Configure Instance Details.”**
@@ -43,11 +43,11 @@
 
 11. Select or Create Key Pair:
     - Choose an existing key pair or create a new one. Download the key pair (.pem file) and keep it safe.
-     ![My image](create_key_pair.png)
+     ![my image](imgaes/create_key_pair.png)
 
 12. Launch Instance:
     - Click **“Launch Instances.”** Wait a moment for the instance to start.
-     ![My image](Launch_an_instance.png)
+     ![image](<imgaes/Launch_an_instance .png>)
 
 14. Change permission or instance using:
       sudo chmod 400 <private-key-name>.pem / pem file path
