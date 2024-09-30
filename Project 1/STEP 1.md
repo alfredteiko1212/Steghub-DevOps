@@ -2,17 +2,17 @@
 To install apache use these commands:
 
 # Update a list of packages in package manager
-$ sudo apt update
+`$ sudo apt update`
 ![img](imgaes/apache_install.jpeg)
 
 # Run apache2 package installation:
-$ sudo apt install apache2 -y
+`$ sudo apt install apache2 -y`
 
 # Verify the apache is running in your OS by entering the command below
-$ sudo systemctl status apache2
+`$ sudo systemctl status apache2`
 ![img](imgaes/apache_status.jpeg)
 
-To add a rule to allow EC2 to access it via SSH:
+# To add a rule to allow EC2 to access it via SSH:
 1.View the Security Group:
 
     Scroll down in the instance details and find the Security Groups section.
@@ -25,7 +25,7 @@ To add a rule to allow EC2 to access it via SSH:
     Click the Edit Inbound Rules button.
     Project 1/imgaes/edit_inbound.png
 
-3.Add SSH Rule:
+3. Add SSH Rule:
 
     In the inbound rules section, click Add Rule.
     Set the following:
@@ -36,9 +36,11 @@ To add a rule to allow EC2 to access it via SSH:
         Project 1/imgaes/add_SSH.png
 
 4. Request our Apache HTTP Server on port 80 using this command:
-$ curl http://localhost:80
+`$ curl http://localhost:80`
 
 # Run the Apache HTTP server in your browser using the Ip address of your instance
-              http://<Publich-IP-Address>
-              http://13.60.34.175:80
-        Project 1/imgaes/Apache_site.png
+```
+http://<Publich-IP-Address>
+  http://13.60.34.175:80 
+```
+Project 1/imgaes/Apache_site.png

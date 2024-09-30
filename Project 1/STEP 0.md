@@ -7,8 +7,7 @@
  Open PowerShell as an administrator/ Install git and open gitbash.
  Run the command:
  
-              wsl -v
-
+`wsl -v`
 
  If you don't have it installed use this command
                   wsl --install -d Ubuntu-20.04
@@ -20,7 +19,7 @@
    - Go to the [AWS Management Console](https://aws.amazon.com/console/) and log in with your credentials.
 
 2. Navigate to EC2 Dashboard:
-   - In the console, search for **EC2** in the services search bar and select **EC2**.
+   - In the console, search for EC2 in the services search bar and select EC2.
 
 3. Launch Instance:
    - Click on the **“Launch Instance”** button.
