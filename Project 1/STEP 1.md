@@ -2,14 +2,17 @@
 To install apache use these commands:
 
 # Update a list of packages in package manager
-`$ sudo apt update`
+
+    $ sudo apt update
+
 ![img](imgaes/apache_install.jpeg)
 
 # Run apache2 package installation:
-`$ sudo apt install apache2 -y`
+
+    $ sudo apt install apache2 -y
 
 # Verify the apache is running in your OS by entering the command below
-`$ sudo systemctl status apache2`
+    $ sudo systemctl status apache2
 ![img](imgaes/apache_status.jpeg)
 
 # To add a rule to allow EC2 to access it via SSH:

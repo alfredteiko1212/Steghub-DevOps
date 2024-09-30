@@ -7,10 +7,12 @@
  Open PowerShell as an administrator/ Install git and open gitbash.
  Run the command:
  
-    gitwsl -v
+    wsl -v
 
  If you don't have it installed use this command
-                  wsl --install -d Ubuntu-20.04
+
+    wsl --install -d Ubuntu-20.04
+
 ![my imgage](imgaes/ubuntu_version.jpeg)
 
 # Steps to Launch an EC2 Instance on AWS Using Ubuntu
@@ -49,7 +51,7 @@
      ![image](<imgaes/Launch_an_instance .png>)
 
 14. Change permission or instance using:
-      sudo chmod 400 <private-key-name>.pem / pem file path
+    sudo chmod 400 <private-key-name>.pem / pem file path
 
 13. Connect to Your Instance:
     - Use an SSH client to connect:
