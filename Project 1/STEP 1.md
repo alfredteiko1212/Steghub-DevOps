@@ -17,7 +17,7 @@ To add a rule to allow EC2 to access it via SSH:
 
     Scroll down in the instance details and find the Security Groups section.
     Click on the Security Group linked to your EC2 instance.
-    Project 1/imgaes/security.png
+    ![img](imgaes/security.png)
 
 2.Edit Inbound Rules:
 
