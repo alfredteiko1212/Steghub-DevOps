@@ -1,12 +1,12 @@
 # STEP 4 - Craeting a Virtual Host for your Website using Apache
 1. Create the directory or project lamp using:
-   $ sudo mkdir /var/www/projectlamp
+     $ sudo mkdir /var/www/projectlamp
 
 2. Assign Ownership to directory using:
-   $ sudo chown -R $USER / var/www/projectlamp
+     $ sudo chown -R $USER / var/www/projectlamp
 
 3. Craete and Open new coniguration ile in Apache using vi command editor:
-   $ sudo vi/etc/apache2/sites-available/projectlamp.conf
+     $ sudo vi/etc/apache2/sites-available/projectlamp.conf
 
 4. Paste the ollowing coniguration by hitting i on the keyboard:
 ```
@@ -26,17 +26,17 @@ To save;
 3. Type wq and enter to exit
 
 5. To enable new virtual host use:
-   sudo a2ensite projectlamp
+     sudo a2ensite projectlamp
 ![img](imgaes/mkdir.jpeg)
 
 6. To disable Apache's deault website use:
-   sudo a2dissite 000-deault
+     sudo a2dissite 000-deault
 
 7. MAke sure your configuration ile doe not contain syntax error using:
-   sudo apache2ctl conigtest
+     sudo apache2ctl conigtest
 
 8. Reload Apache using:
-   sudo systemctl reload apache2
+     sudo systemctl reload apache2
 
 9. Create an index.html file in the new webiste using:
 ``` 
@@ -48,7 +48,8 @@ To save;
  ```
 
 10. Open your website URL usiong IP address:
-   http;//<Public-IP-Address>:80
+     http;//<Public-IP-Address>:80
 ![img](imgaes/final_website.jpeg)
+
 
 
