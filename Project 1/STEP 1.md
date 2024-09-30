@@ -13,6 +13,7 @@ To install apache use these commands:
 
 # Verify the apache is running in your OS by entering the command below
      $ sudo systemctl status apache2
+     
 ![img](images/apache_status.jpeg)
 
 # To add a rule to allow EC2 to access it via SSH:
@@ -40,8 +41,9 @@ To install apache use these commands:
     ![img](images/add_SSH.png)
 
 4. Request our Apache HTTP Server on port 80 using this command:
-
-     $ curl http://localhost:80
+```
+$ curl http://localhost:80
+```
 
 # Run the Apache HTTP server in your browser using the Ip address of your instance
 

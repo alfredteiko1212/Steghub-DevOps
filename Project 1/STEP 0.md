@@ -28,6 +28,7 @@
 
 4. Choose an Amazon Machine Image (AMI):
    - Select an Ubuntu AMI from the list (e.g., Ubuntu Server 22.04 LTS).
+
    ![my image](images/setup_instance.png)
 
 5. Choose an Instance Type:
@@ -44,10 +45,12 @@
 
 11. Select or Create Key Pair:
     - Choose an existing key pair or create a new one. Download the key pair (.pem file) and keep it safe.
+
      ![my image](images/create_key_pair.png)
 
 12. Launch Instance:
     - Click **“Launch Instances.”** Wait a moment for the instance to start.
+    
      ![image](<images/Launch_an_instance .png>)
 
 14. Change permission or instance using:
