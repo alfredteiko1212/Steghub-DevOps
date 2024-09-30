@@ -27,7 +27,7 @@ To save;
 
 5. To enable new virtual host use:
     sudo a2ensite projectlamp
-![img](imgaes/mkdir.jpeg)
+![img](images/mkdir.jpeg)
 
 6. To disable Apache's deault website use:
     sudo a2dissite 000-deault
@@ -48,8 +48,7 @@ To save;
  ```
 
 10. Open your website URL usiong IP address:
-  `  http;//<Public-IP-Address>:80 `
-![img](imgaes/final_website.jpeg)
+    http;//<Public-IP-Address>:80 
 
-
+![img](images/final_website.png)
 

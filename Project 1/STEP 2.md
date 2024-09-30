@@ -3,12 +3,12 @@
 
     $ sudo apt install mysql-server
 
-![img](imgaes/install_mysql.jpeg)
+![img](images/install_mysql.jpeg)
 
 2. Log into my MySQ:
     $ sudo mysql 
 
-![img](imgaes/mysql.jpeg)
+![img](images/mysql.jpeg)
 
 3. Set root user password using:
 
@@ -20,14 +20,14 @@ NB:  Deault password set:PassWord.1
 4. Start the interactive script by running:
     $ sudo mysql_secure_installation 
 
-![img](imgaes/mysql_secure.jpeg)
+![img](images/mysql_secure.jpeg)
 
 5. Exist MySQL shell with:
      exit
 
 8. Test for accessibility to MySQL console by typing:
     $ sudo mysql -p 
-![img](imgaes/mysql_p.jpeg)
+![img](images/mysql_p.jpeg)
 
 
 9. To exit MySQL console type:

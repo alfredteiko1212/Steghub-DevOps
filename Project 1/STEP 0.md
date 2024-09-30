@@ -13,7 +13,7 @@
 
     wsl --install -d Ubuntu-20.04
 
-![my imgage](imgaes/ubuntu_version.jpeg)
+![my image](images/ubuntu_version.jpeg)
 
 # Steps to Launch an EC2 Instance on AWS Using Ubuntu
 
@@ -28,7 +28,7 @@
 
 4. Choose an Amazon Machine Image (AMI):
    - Select an Ubuntu AMI from the list (e.g., Ubuntu Server 22.04 LTS).
-   ![my image](imgaes/setup_instance.png)
+   ![my image](images/setup_instance.png)
 
 5. Choose an Instance Type:
    - Select the instance type (e.g., `t2.micro` for the free tier) and click **“Next: Configure Instance Details.”**
@@ -44,11 +44,11 @@
 
 11. Select or Create Key Pair:
     - Choose an existing key pair or create a new one. Download the key pair (.pem file) and keep it safe.
-     ![my image](imgaes/create_key_pair.png)
+     ![my image](images/create_key_pair.png)
 
 12. Launch Instance:
     - Click **“Launch Instances.”** Wait a moment for the instance to start.
-     ![image](<imgaes/Launch_an_instance .png>)
+     ![image](<images/Launch_an_instance .png>)
 
 14. Change permission or instance using:
     sudo chmod 400 <private-key-name>.pem / pem file path
