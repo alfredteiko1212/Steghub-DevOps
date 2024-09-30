@@ -26,6 +26,7 @@ To install apache use these commands:
 - In the Security Group details page, click on the Inbound Rules tab.
 
 - Click the Edit Inbound Rules button.
+
     ![img](images/edit_inbound.png)
 
 3. Add SSH Rule:
@@ -36,9 +37,10 @@ To install apache use these commands:
    - Port Range: 22 (default for SSH).
    - Source: Set to your choice (e.g., My IP to allow access only from your IP, or Anywhere for public access)
 
-    ![img](imgaes/add_SSH.png)
+    ![img](images/add_SSH.png)
 
 4. Request our Apache HTTP Server on port 80 using this command:
+
      $ curl http://localhost:80
 
 # Run the Apache HTTP server in your browser using the Ip address of your instance

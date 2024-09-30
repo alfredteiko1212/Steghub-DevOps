@@ -33,10 +33,14 @@ To save;
     sudo a2dissite 000-deault
 
 7. MAke sure your configuration ile doe not contain syntax error using:
-```sudo apache2ctl conigtest```
+```
+sudo apache2ctl conigtest
+```
 
 8. Reload Apache using:
-```sudo systemctl reload apache2```
+```
+sudo systemctl reload apache2
+```
 
 9. Create an index.html file in the new webiste using:
 ``` 
@@ -48,7 +52,9 @@ To save;
  ```
 
 10. Open your website URL usiong IP address:
-```http;//<Public-IP-Address>:80 ```
+```
+http;//<Public-IP-Address>:80 
+```
 
 ![img](images/final_website.png)
 
