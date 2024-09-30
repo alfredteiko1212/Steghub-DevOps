@@ -4,7 +4,7 @@
 ![img](imgaes/install_mysql.jpeg)
 
 2. Log into my MySQ:
-    $ sudo mysql 
+   $ sudo mysql 
 ![img](imgaes/mysql.jpeg)
 
 3. Set root user password using:
