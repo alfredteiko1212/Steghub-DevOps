@@ -41,4 +41,6 @@ $ sudo mysql -p
 ![img](images/mysql_p.jpeg)
 
 9. To exit MySQL console type:
-     exit
+```
+exit
+```
