@@ -23,7 +23,7 @@ NB:  Deault password set:PassWord.1
 ![img](imgaes/mysql_secure.jpeg)
 
 5. Exist MySQL shell with:
-    exit
+     exit
 
 8. Test for accessibility to MySQL console by typing:
     $ sudo mysql -p 
@@ -31,4 +31,4 @@ NB:  Deault password set:PassWord.1
 
 
 9. To exit MySQL console type:
-    exit
+     exit

@@ -19,10 +19,12 @@ To install apache use these commands:
 1. View the Security Group:
 - Scroll down in the instance details and find the Security Groups section.
 - Click on the Security Group linked to your EC2 instance.
+
     ![img](imgaes/security.png)
 
 2. Edit Inbound Rules:
 - In the Security Group details page, click on the Inbound Rules tab.
+
 - Click the Edit Inbound Rules button.
     ![img](imgaes/edit_inbound.png)
 
@@ -33,6 +35,7 @@ To install apache use these commands:
    - Protocol: This will automatically set to TCP.
    - Port Range: 22 (default for SSH).
    - Source: Set to your choice (e.g., My IP to allow access only from your IP, or Anywhere for public access)
+
     ![img](imgaes/add_SSH.png)
 
 4. Request our Apache HTTP Server on port 80 using this command:
