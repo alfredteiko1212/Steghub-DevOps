@@ -9,7 +9,7 @@ $ sudo mkdir /var/www/projectlamp
 $ sudo chown -R $USER / var/www/projectlamp
 ```
 
-3. Craete and Open new coniguration ile in Apache using vi command editor:
+3. Craete and Open new coniguration file in Apache using vi command editor:
 ```
 $ sudo vi/etc/apache2/sites-available/projectlamp.conf
 ```
