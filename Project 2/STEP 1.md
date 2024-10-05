@@ -28,4 +28,4 @@ $ curl http://localhost:80
 http://<Public-IP-Address>:80
 ```
 
-![img](images\nginx.jpeg)
+![img](images/nginx.jpeg)
