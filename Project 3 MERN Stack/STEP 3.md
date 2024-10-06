@@ -4,7 +4,7 @@
 1.  Change directory to Todo folder and install Mongoose using:
 
 ```
-cd 
+cd Todo
 npm install mongoose
 ```
 
@@ -16,9 +16,13 @@ npm install mongoose
 mkdir models && cd models && touch todo.js
 ```
 
+```
+vim todo.js
+```
+
 ![img](images/vimtodo.png)
 
-3. Open the vim todo.js file editor and paste the code below:
+3. After opening the vim todo.js file editor, paste the code below:
 
 ```
 const mongoose = require('mongoose');
@@ -38,8 +42,17 @@ const Todo = mongoose.model('todo', TodoSchema);
 module.exports = Todo;
 ```
 
-4. Now, we need to update our routes file by opening our vim api.js in routes directory to make use o the new model. 
-Delete the code inside with :%d and paste in the code below:
+4. Now, we need to update our routes file by opening our vim api.js in routes directory to make use of the new model. 
+
+```
+vim api.js
+```
+
+5. Delete the code inside with :%d and paste in the code below:
+
+```
+:%d
+```
 
 ```
 const express = require ('express');

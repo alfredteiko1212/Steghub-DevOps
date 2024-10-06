@@ -25,13 +25,13 @@ npm install dotenv
 
 ![img](images/dotenv.png)
 
-4. Open the index.js ile using:
+4. Open the index.js file using:
 
 ```
 vim index.js
 ```
 
-5. Once we are the code editor paste the code below
+5. Once we are in the code editor, paste the code below
 
 ```
 const express = require("express");
@@ -59,7 +59,7 @@ app.listen(port, () => {
 });
 ```
 
-6. To know if our server works, start our server by using:
+6. To know if our server works, start our server by entering:
 
 ```
 node index.js
@@ -67,7 +67,7 @@ node index.js
 
 ![img](images/indexserver.png)
 
-7. Edit inbound settings of the security group to allow TCP to get connected anywhere:
+7. Edit inbound settings of the security group to allow TCP to get connected anywhere and set port to 5000:
 
 ![img](images/inbound.png)
 
@@ -82,7 +82,7 @@ http://<Public-or-PublicDNS>:5000
 9. Create route using:
 
 ```
-mkdir
+mkdir routes
 ```
 
 10. Change directory using:
@@ -94,10 +94,10 @@ cd routes
 11. Create a file api.js using:
 
 ```
-touch api.s
+touch api.js
 ```
 
-12. Open vim editor using:
+12. Open vim editor o api.js file using:
 
 ```
 vim api.js
@@ -107,6 +107,7 @@ vim api.js
 
 
 13. Now enter the code in the editor:
+
 ```
 const express = require('express');
 const router = express.Router();

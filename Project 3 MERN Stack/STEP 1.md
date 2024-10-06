@@ -31,7 +31,7 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-![img](image-1.png)
+![img](images/sudoapt.png)
 
 5. Verfiy the node installation using:
 
@@ -49,7 +49,7 @@ npm -v
 
 ![img](images/npm_v.png)
 
-7. To create a new directory or our To-Do project:
+7. To create a new directory on our To-Do project enter:
 
 ```
 mkdir Todo

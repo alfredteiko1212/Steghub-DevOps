@@ -22,18 +22,18 @@
 ![img](images/createdatabaseuser.png)
 
 6. Choose a connection method
+
 ![img](images/method.png)
 
 7. Enter a username and password. Ensure the “Read and Write to any database under built-in role” option is selected, temporary user is on and set to one week. Click "Add User".
 
-![img](images/newuser.png.png)
+![img](images/newuser.png)
 
-
-8. Then go back to overview page, click in connect, select drivers and choose Mongoose , copy your conection url, click done.
+8. Then go back to overview page, click on connect, select drivers and choose Mongoose , copy your conection url, click done.
 
 ![img](images/connect.png)
 
-9. create a file in our Todo and name it .env using:
+9. create a file in our Todo directory and name it .env using:
 
 ```
 touch .env
@@ -43,16 +43,18 @@ vi .env
 10. Paste the connection string to access the database.
 
 ```
-DB:mongodb+srv://<username>:<password>@steghub.mzlb1kj.mongodb.net/?retryWrites=true&w=majority&appName=StegHub
+DB = 'mongodb+srv://<username>:<password>@<network-address>/<dbname>?
+retryWrites=true&w=majority'
 ```
 
-11. Get intoto the index.js file already set up using:
+11. Get into the index.js directory already set up using:
 
 ```
  vim index.js
 ```
 
 12. Paste the code inside the vim editor:
+
 ```
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -93,5 +95,13 @@ app.listen(port, () =>  {
 console.log(`Server running on port ${port}`)
 });
 ```
+
+13. Start the server with
+
+```
+node index.js
+```
+
+The message "Database connected succesfully" will be shown signifying successul connection
 
 ![img](images/serverrunning.png)

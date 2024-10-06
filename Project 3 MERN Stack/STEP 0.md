@@ -2,17 +2,20 @@
 
 The MERN stack is a set of technologies used to build web applications. It includes four main tools:
 
-    MongoDB: A database where data is stored in a flexible, JSON-like format.
-    Express.js: A back-end web framework that helps manage server-side logic and handle HTTP requests.
-    React: A front-end library used to build user interfaces, especially for single-page applications.
-    Node.js: A platform that allows JavaScript to run on the server.
+MongoDB: A database where data is stored in a flexible, JSON-like format.
+  
+Express.js: A back-end web framework that helps manage server-side logic and handle HTTP requests.
+  
+React: A front-end library used to build user interfaces, especially for single-page applications.
+  
+Node.js: A platform that allows JavaScript to run on the server.
 
 # STEP 0 - Prerequisite installation
 1. Create an EC2 instance using your preferred name.
 
 ![img](images/ec2.png)
 
-2. Install OpenSSH or windows using powershell, we run our Powershell as an Adminstrator.
+2. Install OpenSSH on windows using powershell, we run our Powershell as an Adminstrator.
 
 3. To be sure that Open SSH is available run:
 
@@ -22,8 +25,8 @@ Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 
 ![img](images/installedclient&server.png)
 
-
 4. If not installed command should look like this or one present and the other not:
+
 ```
 Name  : OpenSSH.Client~~~~0.0.1.0
 State : NotPresent
@@ -33,6 +36,7 @@ State : NotPresent
 ```
 
 5. To install the server and client components run:
+
 ```
 # Install the OpenSSH Client
 Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
@@ -63,4 +67,4 @@ if (!(Get-NetFirewallRule -Name "OpenSSH-Server-In-TCP" -ErrorAction SilentlyCon
 }
 ```
 
-![img](images/firewallrule.png.png)
+![img](images/firewallrule.png)
