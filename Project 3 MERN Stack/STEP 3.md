@@ -55,34 +55,36 @@ vim api.js
 ```
 
 ```
-const express = require ('express');
+const express = require('express');
 const router = express.Router();
 const Todo = require('../models/todo');
 
+// GET route for fetching all todos
 router.get('/todos', (req, res, next) => {
-
-Todo.find({}, 'action')
-.then(data => res.json(data))
-.catch(next)
+  Todo.find({}, 'action')
+    .then(data => res.json(data))
+    .catch(next);
 });
 
-router.post('/todos', (res, res, next) => {
-if(req.body.action) {
-Todo.create(req.body)
-.then(data => res.json(data))
-.catch(next)
-}else {
-res.json({
-error: "The input field is empty"
-})
-}
+// POST route for adding a new todo
+router.post('/todos', (req, res, next) => {
+  if (req.body.action) {
+    Todo.create(req.body)
+      .then(data => res.json(data))
+      .catch(next);
+  } else {
+    res.json({
+      error: "The input field is empty"
+    });
+  }
 });
 
+// DELETE route for removing a todo by ID
 router.delete('/todos/:id', (req, res, next) => {
-Todo.findOneAndDelete({"_id": req.params.id})
-.then(data => res.json(data))
-.catch(next)
-})
+  Todo.findOneAndDelete({ "_id": req.params.id })
+    .then(data => res.json(data))
+    .catch(next);
+});
 
 module.exports = router;
 ```
