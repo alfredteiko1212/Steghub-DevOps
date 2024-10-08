@@ -383,4 +383,4 @@ npm run dev
 
 React build would compile sucessfully and both backend and front end will run concurrently through the ports we earlier opened
 
-![IMG](images/2.png)
+![img](images/Start_Assignment.png)
