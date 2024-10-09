@@ -5,7 +5,7 @@
 1. In the Todo directory, run
 
 ```
-npm create vite client
+npx create-react-app client
 ```
 
 ![img](images/image.png)
