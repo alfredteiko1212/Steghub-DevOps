@@ -62,7 +62,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-![img](image.png)
+![img](images/6.png)
 
 3. Run the secure installation script to improve security:
 
